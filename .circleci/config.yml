@@ -6,7 +6,7 @@ jobs:
    docker:
      - image: node:latest
    steps:
-     - run: echo "Hello, World!"
+     - run: echo "Hello, World"
 # Orchestrate or schedule a set of jobs
 workflows:
   # Name the workflow "welcome"
